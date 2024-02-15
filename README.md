@@ -1,2 +1,3 @@
 # bruno-collections
-repository for bruno（https://www.usebruno.com/）
+repository for Bruno（https://www.usebruno.com/）
+Bruno（https://www.usebruno.com/） コレクションを管理するリポジトリ
