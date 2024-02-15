@@ -1,0 +1,25 @@
+meta {
+  name: OData-test
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://services.odata.org/V2/Northwind/Northwind.svc/Categories?filter=CategoryName eq Beverages
+  body: none
+  auth: basic
+}
+
+query {
+  filter: CategoryName eq Beverages
+}
+
+auth:basic {
+  username: exapmle_username
+  password: exapmle_password
+}
+
+docs {
+  #SAP Gateway Demo Server ES5
+  https://services.odata.org/V2/Northwind/Northwind.svc/
+}
